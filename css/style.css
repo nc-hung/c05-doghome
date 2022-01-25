@@ -1,8 +1,3 @@
-/* @import url('http://fonts.cdnfonts.com/css/awe'); */
-
-
-/* @import "path/to/font-awesome/css/font-awesome.min.css"; */
-
 * {
     box-sizing: border-box;
 }
@@ -11,6 +6,7 @@ body {
     margin: 0;
     font-family: 'Nunito Sans', sans-serif;
     line-height: 1.5;
+    font-size: 16px;
 }
 
 header {
@@ -30,7 +26,7 @@ header #logo {
     position: relative;
     top: 10px;
     left: 10px;
-    font-size: 30px;
+    font-size: 2em;
     text-align: center;
 }
 
@@ -55,7 +51,7 @@ header nav {
 header nav :hover {
     background-color: white;
     color: #1b343e;
-    padding: 15px;
+    padding: 1rem;
     border-radius: 5px;
 }
 
@@ -84,7 +80,7 @@ header #main-header {
     margin: auto;
     border: 2px white solid;
     border-radius: 5px;
-    padding: 15px;
+    padding: 1rem;
 }
 
 #main-header-readmore a {
@@ -98,7 +94,7 @@ header #main-header {
 
 header #label-list {
     width: 100px;
-    height: 15px;
+    height: 1em;
     position: absolute;
     bottom: 25px;
     left: 50%;
@@ -115,12 +111,12 @@ header #label-list {
 /* welcome */
 
 #welcome {
-    padding: 70px 100px;
+    padding: 4.37rem 6.25rem;
     text-align: center;
 }
 
 #welcome h2 {
-    font-size: 50px;
+    font-size: 3.12em;
     height: 50px;
 }
 
@@ -133,8 +129,8 @@ header #label-list {
 
 #welcome img {
     width: 100%;
-    margin-top: 20px;
-    margin-bottom: 30px;
+    margin-top: 1.25rem;
+    margin-bottom: 1, 87rem;
 }
 
 
@@ -142,7 +138,7 @@ header #label-list {
 
 #what-we-do {
     width: 100%;
-    padding: 70px 100px;
+    padding: 4.37rem 6.25rem;
 }
 
 #what-we-do #wwd {
@@ -154,7 +150,7 @@ header #label-list {
 
 #what-we-do h2 {
     text-align: center;
-    font-size: 50px;
+    font-size: 3.12em;
     height: 50px;
 }
 
@@ -172,14 +168,14 @@ header #label-list {
 }
 
 #what-we-do #mini-box h2 {
-    font-size: 30px;
+    font-size: 1.87em;
     /* margin: 0 auto; */
 }
 
 #what-we-do img {
     width: 50%;
     border-radius: 300px;
-    margin-top: 50px;
+    margin-top: 3.12rem;
 }
 
 
@@ -196,7 +192,7 @@ header #label-list {
 }
 
 #main-header button {
-    margin-top: 33px;
+    margin-top: 2.06rem;
 }
 
 
@@ -206,13 +202,13 @@ header #label-list {
     border: 2px solid rgb(230, 237, 240);
     background-color: rgb(42, 132, 170);
     text-align: center;
-    padding: 50px;
+    padding: 3.12rem;
     color: #ffffff;
     background-image: url("../img/bg.jpg");
 }
 
 #statistics h2 {
-    font-size: 50px;
+    font-size: 3.12rem;
 }
 
 #statistics #pack {
@@ -227,7 +223,7 @@ header #label-list {
 }
 
 #statistics #pack #s h3 {
-    font-size: 50px;
+    font-size: 3.12em;
     margin: auto;
 }
 
@@ -235,14 +231,14 @@ header #label-list {
 /* services */
 
 #services {
-    padding: 50px;
+    padding: 3.12rem;
     width: 100%;
     display: flex;
 }
 
 #services h2 {
     margin-top: 0px;
-    font-size: 50px;
+    font-size: 3.12em;
     text-align: center;
     align-self: flex-start;
 }
@@ -270,7 +266,7 @@ header #label-list {
     height: 48%;
     background-color: #ffffff;
     border-radius: 5px;
-    box-shadow: 0 10px 60px #eaeef9;
+    box-shadow: 0 0.62rem 3.75rem #eaeef9;
 }
 
 .top-left {
@@ -337,7 +333,7 @@ header #label-list {
     height: 25px;
     text-decoration: none;
     color: chocolate;
-    font-size: 15px;
+    font-size: 1em;
     position: absolute;
     bottom: 7%;
     margin-left: -7%;
@@ -355,7 +351,7 @@ header #label-list {
 #ourblog h2 {
     text-align: center;
     font-size: 50px;
-    margin: 70px 50px 0;
+    margin: 4, 37rem 3.12rem 0;
 }
 
 #ourblog-content {
@@ -364,7 +360,7 @@ header #label-list {
     grid-template-columns: 30% 30% 30%;
     grid-template-rows: auto;
     grid-area: "item1 item2 item3" "item1 item2 item3" "item1 item2 item3";
-    column-gap: 20px;
+    column-gap: 1.25rem;
     justify-content: center;
 }
 
@@ -401,7 +397,7 @@ header #label-list {
 }
 
 .it-content {
-    padding: 10px;
+    padding: 0.62rem;
     font-weight: bold;
 }
 
@@ -420,7 +416,7 @@ header #label-list {
 
 #contact {
     display: grid;
-    column-gap: 20px;
+    column-gap: 1.25rem;
     padding-top: 5%;
     padding-left: 15%;
     grid-template-columns: 38% 40%;
@@ -431,7 +427,7 @@ header #label-list {
 .h2 {
     grid-area: h2;
     text-align: center;
-    font-size: 50px;
+    font-size: 3.12em;
     margin-top: 0%;
 }
 
@@ -443,20 +439,20 @@ header #label-list {
 .main1 {
     grid-area: main1;
     width: 100%;
-    margin-top: 50px;
+    margin-top: 3.12rem;
 }
 
 .main1 h3 {
     color: #ffa728;
-    font-size: 30px;
-    margin-top: -5px;
+    font-size: 1.87em;
+    margin-top: -0.31rem;
 }
 
 .main2 {
     grid-area: main2;
     width: 100%;
     background-color: #f7f7f7;
-    margin-top: 50px;
+    margin-top: 3.12rem;
     padding: 5%;
 }
 
@@ -467,13 +463,13 @@ header #label-list {
 }
 
 .main2 input {
-    margin-top: 15px;
+    margin-top: 1rem;
     width: 100%;
     height: 50px;
 }
 
 .main2 textarea {
-    margin-top: 15px;
+    margin-top: 1rem;
 }
 
 #message {
@@ -486,22 +482,22 @@ header #label-list {
     color: white;
     border: unset;
     border-radius: 5px;
-    font-size: 20px;
+    font-size: 1.25em;
 }
 
 .spacing-content {
-    margin-left: 50px;
+    margin-left: 3.12rem;
 }
 
 .icon {
-    font-size: 30px;
-    margin-right: 15px;
+    font-size: 1.87em;
+    margin-right: 1rem;
 }
 
 .icon-service {
-    font-size: 50px;
+    font-size: 3.12em;
     color: #ff9900;
-    margin-top: 40px;
+    margin-top: 2.5rem;
 }
 
 .footer {
@@ -542,30 +538,11 @@ header #label-list {
 
 .footer .icon {
     color: tomato;
-    font-size: 30px;
+    font-size: 1.87em;
 }
 
-
-/** vì sao không thể dùng cấu trúc first-child??????*/
-
-
-/* .cotact:first-child {
-    grid-area: h2;
-    width: 100%;
-    height: 25px;
-    border: rgb(30, 179, 134) 2px solid;
-} */
-
-
-/* .contact:nth-child(2) {
-    grid-area: main1;
-    width: 100%;
-    border: rgb(14, 179, 41) 2px solid;
-} */
-
-
-/* .contact:last-child {
-    grid-area: main2;
-    width: 100%;
-    border: olivedrab 2px solid;
-}  */
+@media only screen and (max-width: 992px) {
+    body {
+        font-size: 12px;
+    }
+}
